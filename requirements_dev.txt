@@ -1,4 +1,5 @@
 HTMLParser
 future
 requests
+setuptools>=31.0.1
 sphinx

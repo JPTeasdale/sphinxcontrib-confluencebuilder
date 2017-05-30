@@ -13,8 +13,8 @@ env:
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
- - pip install --upgrade 'setuptools>=35.0.2'
  - pip install --upgrade -I https://github.com/pypa/pip/archive/master.zip#egg=pip
+ - pip install --upgrade 'setuptools>=31.0.1'
  - pip install --upgrade tox
 
 # command to run tests, e.g. python setup.py test
