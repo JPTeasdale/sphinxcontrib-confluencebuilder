@@ -9,10 +9,8 @@ env:
   - TOXENV=pylint
 
 before_install:
- - wget -O TMPFIX-pip-init \
- https://raw.githubusercontent.com/pypa/setuptools/v36.0.1/pkg_resources/__init__.py
- - cp TMPFIX-pip-init \
-    $VIRTUAL_ENV/lib/python$TRAVIS_PYTHON_VERSION/site-packages/pip/__init__.py
+ - wget -O TMPFIX-pip-init  https://raw.githubusercontent.com/pypa/setuptools/v36.0.1/pkg_resources/__init__.py
+ - cp TMPFIX-pip-init $VIRTUAL_ENV/lib/python$TRAVIS_PYTHON_VERSION/site-packages/pip/__init__.py
 
 install:
  - pip install --upgrade tox
