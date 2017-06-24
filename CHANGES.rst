@@ -16,8 +16,9 @@
   * table
   * versionmodified
 * re-work generated document references/targets (reference to section names)
-* sanitize output to prevent Confluence errors for certain characters
+* sanitize output to prevent confluence errors for certain characters
 * support indentations markup
+* support master_doc option to configure space's homepage
 
 0.6.0 (2017-04-23)
 ==================
@@ -68,4 +69,3 @@
 
 * added lists, bullets, formatted text
 * added headings and titles
-
